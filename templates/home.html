@@ -14,6 +14,7 @@
     </style>
   </head>
   <body>
+    {% include 'nav.html'%}
     <div class="container">
     <h1 class="text-center">{{company_name}} Careers</h1>
     <img class="img-fluid" id="banner" src="https://a372a019-a86d-4cfb-bc9d-bdcec75dbcb5-00-2llq9x85x0kov.sisko.replit.dev:5000/static/banner.jpg" >
@@ -27,7 +28,7 @@
     </div>
     <div class="text-center">
     <button class="btn btn-primary btn-lg" id="contactusBtn">Contact Us</button>
-      <p class="mt-4">Copyright 2022,Monisha</p>
     </div>
+      {% include 'footer.html'%}
   </body>
 </html>
