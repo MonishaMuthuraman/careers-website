@@ -19,7 +19,7 @@ JOBS=[
     'id':3,
     'title':'Front End Engineer',
     'location':'Remote',
-    'salary':'Rs. 12,00,000'
+    'salary':'Rs. 15,00,000'
   },
   {
     'id':4,
